@@ -20,6 +20,17 @@ class Warehouse
         }
     }
 
+    public function getEntriesWarehouses()
+    {
+        try {
+            $sql = "SELECT * FROM vw_HistorialIngresoBodegas ";
+            $stmt = $this->pdo->query($sql);
+            return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            die("Error al obtener las categorías: " . $e->getMessage());
+        }
+    }
+
     public function deleteWarehouse($id)
     {
         try {

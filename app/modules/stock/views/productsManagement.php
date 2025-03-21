@@ -6,7 +6,7 @@
                     <h5>Gestión de Artículos</h5>
                 </div>
                 <div class="card-body">
-                    <!-- Nav tabs -->
+               
                     <ul class="nav nav-tabs" id="tabs" role="tablist">
                         <li class="nav-item" role="presentation">
                             <a class="nav-link active" id="articulo-tab" data-bs-toggle="tab" href="#articulos" role="tab" 
@@ -14,9 +14,9 @@
                         </li>
                     </ul>
 
-                    <!-- Tab content -->
+               
                     <div class="tab-content" id="myTabContent">
-                        <!-- Tab Artículos -->
+                        
                         <div class="tab-pane fade show active" id="articulos" role="tabpanel" aria-labelledby="articulo-tab">
                             <div class="col-md-12 form-group d-flex align-items-end justify-content-end pt-4">
                                 <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalArticulo">Agregar Artículo</button>
@@ -60,7 +60,7 @@
         </div>
     </div>
 
-    <!-- Modal para agregar/editar artículo -->
+
     <div class="modal fade" id="modalArticulo" tabindex="-1" aria-labelledby="modalArticuloLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -131,12 +131,3 @@
 
 </div>
 
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-<link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

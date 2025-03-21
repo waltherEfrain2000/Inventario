@@ -22,14 +22,10 @@
                     <a href="?module=entries" class="nav-link text-white">📈 Ingreso Inventario</a>
                 </li>
 
-                <li class="nav-item">
-                    <a href="?module=warehouseControl" class="nav-link text-white">📉 Salida Inventario</a>
-                </li>
-
               
 
                 <li class="nav-item">
-                    <a href="?module=warehouseControl" class="nav-link text-white">📊 Historial</a>
+                    <a href="?module=history" class="nav-link text-white">📊 Historial</a>
                 </li>
             </ul>
         </div>

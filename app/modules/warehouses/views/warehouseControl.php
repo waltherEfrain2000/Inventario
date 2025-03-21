@@ -6,16 +6,16 @@
                     <h5>Gestión de Bodegas</h5>
                 </div>
                 <div class="card-body">
-                    <!-- Nav tabs -->
+                  
                     <ul class="nav nav-tabs" id="tabs" role="tablist">
                         <li class="nav-item" role="presentation">
                             <a class="nav-link active" id="bodega-tab" data-bs-toggle="tab" href="#bodegas" role="tab" aria-controls="bodegas" aria-selected="true">Bodegas</a>
                         </li>
                     </ul>
 
-                    <!-- Tab content -->
+               
                     <div class="tab-content" id="myTabContent">
-                        <!-- Tab Bodegas -->
+                   
                         <div class="tab-pane fade show active" id="bodegas" role="tabpanel" aria-labelledby="bodega-tab">
                             <div class="col-md-12 form-group d-flex align-items-end justify-content-end pt-4">
                                 <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBodega">Agregar Bodega</button>
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <!-- Modal para agregar/editar bodega -->
+
     <div class="modal fade" id="modalBodega" tabindex="-1" aria-labelledby="modalBodegaLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -92,12 +92,3 @@
 
 </div>
 
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-<link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
