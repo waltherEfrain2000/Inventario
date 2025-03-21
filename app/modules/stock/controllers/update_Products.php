@@ -23,10 +23,9 @@ try {
         $PrecioCompra = $_POST['PrecioCompra'];
         $PrecioVenta = $_POST['PrecioVenta'];
 
-        // Llamar a la función saveArticle del modelo
+
         $result = $productModel->updateArticle(  $idSubCategoria, $NombreArticulo, $DescripcionArticulo, $Estado, $ProveedorID, $CantidadInicial, $PrecioCompra, $PrecioVenta,$id);
 
-        // Verificar si la inserción fue exitosa
         if ($result) {
             echo json_encode(["success" => true]);
         } else {

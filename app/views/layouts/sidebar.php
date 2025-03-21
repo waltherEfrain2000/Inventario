@@ -19,7 +19,7 @@
                 </li>
               
                 <li class="nav-item">
-                    <a href="?module=warehouseControl" class="nav-link text-white">📈 Ingreso Inventario</a>
+                    <a href="?module=entries" class="nav-link text-white">📈 Ingreso Inventario</a>
                 </li>
 
                 <li class="nav-item">
