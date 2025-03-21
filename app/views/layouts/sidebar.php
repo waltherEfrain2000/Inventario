@@ -15,7 +15,7 @@
                     <a href="?module=categories" class="nav-link text-white">📥 Categorias Articulos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="?module=warehouseControl" class="nav-link text-white">📦 Articulos</a>
+                    <a href="?module=products" class="nav-link text-white">📦 Articulos</a>
                 </li>
               
                 <li class="nav-item">
