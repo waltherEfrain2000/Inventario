@@ -12,6 +12,9 @@
                     <a href="?module=warehouseControl" class="nav-link text-white">🏭 Bodegas</a>
                 </li>
                 <li class="nav-item">
+                    <a href="?module=categories" class="nav-link text-white">📥 Categorias Articulos</a>
+                </li>
+                <li class="nav-item">
                     <a href="?module=warehouseControl" class="nav-link text-white">📦 Articulos</a>
                 </li>
               
@@ -23,9 +26,7 @@
                     <a href="?module=warehouseControl" class="nav-link text-white">📉 Salida Inventario</a>
                 </li>
 
-                <li class="nav-item">
-                    <a href="?module=warehouseControl" class="nav-link text-white">📥 Ajuste de Inventario</a>
-                </li>
+              
 
                 <li class="nav-item">
                     <a href="?module=warehouseControl" class="nav-link text-white">📊 Historial</a>

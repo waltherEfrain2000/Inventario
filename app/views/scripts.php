@@ -36,7 +36,7 @@ if (!empty($_GET['module'])) {
      */
   if ($_GET['module'] == 'warehouseControl') {
     echo '<script src="/inventario/app/modules/warehouses/js/warehouseControl.js"></script>';
-  } else if ($_GET['module'] == 'controlProductor') {
-    echo '<script src="./modules/productor/js/inicio.js"></script>';
+  } else if ($_GET['module'] == 'categories') {
+    echo '<script src="/inventario/app/modules/categories/js/category.js"></script>';
   } 
 }
